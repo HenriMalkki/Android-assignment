@@ -2,7 +2,7 @@
 This relatively simple Android app was made as a school assignment. It was mostly meant for practicing what we had learned about Android programming, so functionality was the main focus.
 It got the maximum grade possible for the assignment.
 
-#What it does
+# What it does
 <p>It's meant to be an app that helps organize voluntary work. Users can register an account and after logging in they can view a list of
 tasks that need to be completed. Users can also change their own information, or delete their accounts.
 They can then choose to take some tasks on and set them as started after which other users can't see
