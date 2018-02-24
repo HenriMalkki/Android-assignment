@@ -13,7 +13,7 @@ location from a map using the Google Maps API. It's a bit finnicky, but it works
 location data taken from their phones GPS. </p>
 
 <p>The location for a task is mostly there for notifying the user about a task that is close by to their location. The distance under which the
-notification will be sent can be modified from the settings tab.</p>
+notification will be sent can be modified from the settings tab along with the interval for updating the list of tasks.</p>
 
 
 
