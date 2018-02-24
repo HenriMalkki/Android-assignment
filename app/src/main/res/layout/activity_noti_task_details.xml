@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_noti_task_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.s300732.harjoitustyo.notiTaskDetails">
+
+    <TextView
+        android:text="Details of the notification task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="ID:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="75dp"
+        android:id="@+id/textView21" />
+
+    <TextView
+        android:text="User ID:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp"
+        android:id="@+id/textView22" />
+
+    <TextView
+        android:text="Description: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView22"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp"
+        android:id="@+id/textView23" />
+
+    <TextView
+        android:text="Explanation:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:text="Start:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:id="@+id/textView25" />
+
+    <TextView
+        android:text="Stop:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView25"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp"
+        android:id="@+id/textView26" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView22"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/details_UserID"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView23"
+        android:layout_alignStart="@+id/details_UserID"
+        android:id="@+id/details_description"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView24"
+        android:layout_alignStart="@+id/details_description"
+        android:id="@+id/details_explanation"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView25"
+        android:layout_alignStart="@+id/details_explanation"
+        android:id="@+id/details_start"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView26"
+        android:layout_alignStart="@+id/details_start"
+        android:id="@+id/details_stop"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView21"
+        android:layout_alignStart="@+id/details_UserID"
+        android:id="@+id/details_ID"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+</RelativeLayout>

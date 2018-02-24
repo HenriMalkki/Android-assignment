@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_task"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.s300732.harjoitustyo.deleteTaskActivity">
+
+    <Button
+        android:text="Go back to home page (task view) -->"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/goback_button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Admin name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goback_button"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp"
+        android:id="@+id/textView16"
+        tools:text="Admin name" />
+
+    <TextView
+        android:text="Admin pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="52dp"
+        android:id="@+id/textView17" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/goback_button"
+        android:layout_toEndOf="@+id/textView16"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="31dp"
+        android:id="@+id/admin_name_delete" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/admin_name_delete"
+        android:layout_alignEnd="@+id/admin_name_delete"
+        android:layout_marginTop="27dp"
+        android:id="@+id/admin_pass_delete" />
+
+    <Button
+        android:text="Delete Task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="49dp"
+        android:id="@+id/deletetask_button" />
+
+    <TextView
+        android:text="ID of the task you want to delete (check in task view for it)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/admin_pass_delete"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="63dp"
+        android:layout_toStartOf="@+id/deletetask_button" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignBottom="@+id/textView18"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/delete_id" />
+
+
+</RelativeLayout>

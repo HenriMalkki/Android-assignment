@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditTextPreference
+        android:key="interval_preference"
+        android:title="Interval (milliseconds)"
+        android:defaultValue="10000"/>
+    <EditTextPreference
+        android:key="distance_preference"
+        android:title="Distance (meters)"
+        android:defaultValue="1000"/>
+
+</PreferenceScreen>

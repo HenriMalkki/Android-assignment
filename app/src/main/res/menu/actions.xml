@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+
+   <item
+        android:id="@+id/check_log"
+        android:actionViewClass="android.widget.CheckBox"
+        android:checkable="true"
+        android:title="@string/check_login"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_login"
+        android:icon="@drawable/ic_input"
+        android:title="Login"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home"
+        android:title="Go to home page"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_register"
+        android:icon="@drawable/ic_add"
+        android:title="@string/action_register"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/action_delete"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_update"
+        android:icon="@drawable/ic_edit"
+        android:title="@string/action_update"
+        app:showAsAction="ifRoom"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+</menu>
